@@ -1,4 +1,10 @@
 # NCIRASPathway: an R package that converts image pathway to degital pathway 
+#### intall the package
+```r
+library(devtools)
+install_github("CBIIT-CGR/broman")
+``` 
+ 
 # Introduction
 #### raw pathway image -> the coordinators on the image -> generation of digital table -> digital pathway image 
 <img src="examples/01_1ras-pathway-v2.png" width="200" height="100"> <img src="examples/00.png" width="40" height="40"> 
