@@ -32,7 +32,7 @@ install_github("CBIIT-CGR/NCIRASPathway")
  
 [this code](examples/02_4NCIRASPathway.R)
 
-#### The pathway network
+#### The networks by some genes in the pathway
 <img src="examples/02_5ras-pathway-v2.png" width="330" height="280">
  
 [this code](examples/02_5NCIRASPathway.R)
