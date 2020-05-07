@@ -6,18 +6,19 @@
 <img src="examples/01_3ras-pathway-v2.png" width="80" height="100"> <img src="examples/00.png" width="40" height="40"> 
 <img src="examples/01_4ras-pathway-v2.png" width="200" height="100">
 # Examples
-#### map gene information on the pathway
+#### Map gene information on the pathway
 <img src="examples/02_1ras-pathway-v2.png" width="500" height="280">
+[code](examples/)
 
-#### map gene mutations on the pathway
+#### Map gene mutations on the pathway
 <img src="examples/02_2ras-pathway-v2.png" width="500" height="280">
 
-#### map gene associations on the pathway
+#### Map gene associations on the pathway
 <img src="examples/02_3ras-pathway-v2.png" width="500" height="280">
 
-#### map gene associations and mutations on the pathway
+#### Map gene associations and mutations on the pathway
 <img src="examples/02_4ras-pathway-v2.png" width="500" height="280">
 
-#### the pathway network
+#### The pathway network
 <img src="examples/02_5ras-pathway-v2.png" width="330" height="280">
 
