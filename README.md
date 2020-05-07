@@ -2,7 +2,7 @@
 #### intall the package
 ```r
 library(devtools)
-install_github("CBIIT-CGR/broman")
+install_github("CBIIT-CGR/NCIRASPathway")
 ``` 
  
 # Introduction
