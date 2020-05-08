@@ -18,7 +18,7 @@ install_github("CBIIT-CGR/NCIRASPathway")
 #### Map gene information on the pathway
 <img src="examples/02_1ras-pathway-v2.png" width="500" height="280">
  
-[this code](examples/02_1NCIRASPathway.R)
+[code for grid](examples/02_1NCIRASPathway.R) [code for plot](examples/02_1NCIRASPathway.R)
 
 #### Map gene mutations on the pathway
 <img src="examples/02_2ras-pathway-v2.png" width="500" height="280">
