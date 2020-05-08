@@ -2,8 +2,8 @@ rm(list=ls());
 
 library(NCIRASPathway);
 
-file.p  <- "ras-pathway-v2.png";
-outf    <- "ras-pathway-v2.pdf";
+file.p  <- "01_1ras-pathway-v2.png";
+outf    <- "01_1ras-pathway-v2.pdf";
 cols    <- rainbow(10, alpha=0.2);
 
 pdf(outf, 12.8, 7.2)
