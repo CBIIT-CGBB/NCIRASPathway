@@ -1,9 +1,13 @@
 
 
 get_cluster <- function(genes=NULL, plot.out=F){
-  datfile  <- paste0("RASdata.RData");
-  dfile    <- system.file("data", datfile, package="NCIRASPathway");
-  dat      <- get(load(dfile));
+  if (exists("RASdata", mode="any")){
+    dat <- RASdata;
+  } else {
+    datfile  <- paste0("RASdata.RData");
+    dfile    <- system.file("data", datfile, package="NCIRASPathway");
+    dat      <- get(load(dfile));
+  }
   dat      <- dat$relations;
   dat.i <- which(dat[,3]=="inter");
   dat   <- dat[-dat.i,];
