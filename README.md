@@ -2,7 +2,7 @@
 #### intall the package
 ```r
 library(devtools)
-install_github("CBIIT-CGR/NCIRASPathway")
+install_github("CBIIT-CGBB/NCIRASPathway")
 ``` 
  
 # Introduction
