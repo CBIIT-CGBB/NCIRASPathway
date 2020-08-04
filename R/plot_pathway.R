@@ -3,9 +3,13 @@
 plot_pathway <- function(data=NULL, type="no", col.node="blue", col.neg="blue", col.pos="red", 
                          bg.neg="blue", bg.pos="red", col.text="black", ...){
 
-  datfile  <- paste0("RASdata.RData");
-  dfile    <- system.file("data", datfile, package="NCIRASPathway");
-  dat      <- get(load(dfile));
+  if (exists("RASdata", mode="any")){
+    dat <- RASdata;
+  } else {
+    datfile  <- paste0("RASdata.RData");
+    dfile    <- system.file("data", datfile, package="NCIRASPathway");
+    dat      <- get(load(dfile));
+  }
   dat1 <- dat$gene.po;
   dat2 <- dat$line.po;
   dat3 <- dat$inter.po;
