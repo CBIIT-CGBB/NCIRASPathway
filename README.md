@@ -1,5 +1,5 @@
 # NCIRASPathway: an R package that converts image pathway to degital pathway 
-#### intall the package
+#### Installation
 ```r
 library(devtools)
 install_github("CBIIT-CGBB/NCIRASPathway")
