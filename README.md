@@ -36,7 +36,7 @@ install_github("CBIIT-CGBB/NCIRASPathway")
  
 [R codes](examples/02_4ras-pathway-v2.R)
 
-#### The networks by some genes in the pathway
+#### Sub-networks in the pathway
 <img src="examples/02_5ras-pathway-v2.png" width="330" height="280">
  
 [R codes](examples/02_5ras-pathway-v2.R)
